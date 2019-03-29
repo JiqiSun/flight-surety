@@ -1,4 +1,4 @@
-<!doctype html>
+!doctype html>
 <html lang="en">
 
 <head>
@@ -24,7 +24,52 @@
         <div id="display-wrapper" class="top-20">
         </div>
         <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <label class="form">Flight</label> <input type="text" id="flight-number" value="BA123"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">airline sends funds</label> <input type="number" id="fund-amount"> <btn class="btn btn-primary" id="submit-fund">send</btn>
+        </div>
+
+        <div class="row top-20">
+            <h4>Buy Flight Insurance</h4>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Flight Number</label> <input type="text" id="flight-number" value="BA123">
+            <label class="form">Flight Departure</label> <input type="text" id="flight-departure" value="London">
+            <label class="form">Amount</label> <input type="number" id="insureance-amount"> 
+            <btn class="btn btn-primary" id="buy-insureance">buy</btn>
+        </div>
+
+        <div class="row top-20">
+            <h4>Check status code</h4>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Flight Number</label> <input type="text" id="flight-number" value="BA123">
+            <label class="form">Flight Departure</label> <input type="text" id="flight-departure" value="London"> 
+            <btn class="btn btn-primary" id="get-status">check status</btn>
+        </div>
+
+        <div class="row top-20">
+            <h4>Check credit when status code is 20</h4>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Flight Number</label> <input type="text" id="flight-number" value="BA123">
+            <label class="form">Flight Departure</label> <input type="text" id="flight-departure" value="London"> 
+            <btn class="btn btn-primary" id="claim-insureance">check credit</btn>
+        </div>
+
+        <div class="row top-20">
+            <h4>Withdraw credit</h4>
+        </div>
+
+        <div class="row top-20">
+                <label class="form">Flight Number</label> <input type="text" id="flight-number" value="BA123">
+                <label class="form">Flight Departure</label> <input type="text" id="flight-departure" value="London"> 
+                <btn class="btn btn-primary" id="submit-withdraw">Withdraw credit</btn>
         </div>
     </main>
 
